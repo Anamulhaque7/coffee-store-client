@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+label {
+    overflow: hidden;
+}
+
+.join-item:active {
+    background-color: blue;
+
+}
+.join-item:hover{
+    background-color:  blue;
+    color: white;
+}
